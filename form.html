@@ -1,0 +1,103 @@
+<html>
+
+    <head>
+        <title> HTML Forms </title>
+    </head>
+
+    <body>
+
+        <h1> HTML Forms </h1>
+        <form>
+
+            <div>
+                <label for="username"> Username:- </label>
+                <input id="username" type="text" name="username" />
+            </div>
+
+            <div>
+                <label for="email"> Email:- </label>
+                <input id="email" type="email" name="email" />
+            </div>
+
+            <div>
+                <label for="password"> Password:- </label>
+                <input id="password" type="password" name="password" />
+            </div>
+
+            <div>
+                <label for="dob"> DOB:- </label>
+                <input id="dob" type="date" name="DOB" />
+            </div>
+
+            <div>
+                Select DSA language:-
+                <input id="C++" type="radio" value="C++" name="DSA" />
+                <label for="C++"> C++ </label>
+
+                <input id="Java" type="radio" value="Java" name="DSA" />
+                <label for="Java"> Java </label>
+
+                <input id="Python" type="radio" value="Python" name="DSA" />
+                <label for="Python"> Python </label>
+            </div>
+
+            <div>
+                Select Web-D Technologies:-
+                <input id="JS" type="checkbox" value="JS" name="Web-D" />
+                <label for="JS"> JS </label>
+
+                <input id="ReactJS" type="checkbox" value="ReactJS" name="Web-D" />
+                <label for="ReactJS"> ReactJS </label>
+
+                <input id="NodeJS" type="checkbox" value="NodeJS" name="Web-D" />
+                <label for="NodeJS"> NodeJS </label>
+
+                <input id="AngularJS" type="checkbox" value="AngularJS" name="Web-D" />
+                <label for="AngularJS"> AngularJS </label>
+            </div>
+
+            <div>
+                <label for="profile-pic"> Select a file:- </label>
+                <input id="profile-pic" type="file" name="profile-pic" />
+            </div>
+
+            <div>
+                <label for="car-model"> Select car model:- </label>
+                <select id="car-model" name="car-model">
+                    <option disabled selected value> -- select an option -- </option>
+                    <option value="BMW">
+                        BMW
+                    </option>
+                    <option value="Ferrari">
+                        Ferrari
+                    </option>
+
+                    <optgroup label="Tata">
+                        <option value="Nexon">
+                            Nexon
+                        </option>
+                        <option value="Harrier">
+                            Harrier
+                        </option>
+                        <option value="Sumo">
+                            Sumo
+                        </option>
+                    </optgroup>
+
+                    <option value="Maruti">
+                        Maruti
+                    </option>
+                </select>
+            </div>
+            
+
+            <div>
+                <button type="submit"> Submit </button>
+                <button type="reset"> Reset </button>
+            </div>
+            
+        </form>
+
+    </body>
+
+</html>

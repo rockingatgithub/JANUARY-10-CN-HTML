@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        /* pesudo state selector */
+
+        li:nth-child(5) {
+            color: lightcoral;
+        }
+
+        li:nth-child(odd) {
+            color: aquamarine;
+        }
+
+        /* pesudo element selector */
+
+        p::first-letter {
+            font-size: 24px;
+        }
+
+        p::first-line {
+            color: lightcoral;
+        }
+
+
+
+        li::before {
+            content: '=>>';
+        }
+
+        [type="text"] {
+            color: lightcoral;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <p>
+        This is the first line. <br /> This is the second line.
+    </p>
+
+    <ul>
+        <li>
+            HTML
+        </li>
+        <li>
+            CSS
+        </li>
+        <li>
+            JS
+        </li>
+        <li>
+            ReactJS
+        </li>
+        <li>
+            NodeJS
+        </li>
+        <li>
+            Git
+        </li>
+    </ul>
+
+    <div>
+
+        <label for="input-1"> First Name:- </label>
+        <input id="input-1" type="text" />
+
+    </div>
+    <div>
+
+        <label for="input-2"> Last Name:- </label>
+        <input id="input-2" type="text" />
+
+    </div>
+    <div>
+
+        <label for="input-3"> Email:- </label>
+        <input id="input-3" type="email" />
+
+    </div>
+
+</body>
+
+</html>

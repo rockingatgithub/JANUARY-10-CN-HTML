@@ -21,7 +21,6 @@
         span {
             color: red;
             font-size: 24px;
-            font-family: cursive;
             font-weight: 700;
             font-style: italic;
         }
@@ -29,15 +28,26 @@
         #div-1 {
             color: brown;
         }
+
+        .grp-1 {
+            font-family: cursive;
+        }
+
+        p:target {
+            color: chocolate;
+        }
+
     </style>
 
 
 </head>
 <body>
     
-    <h1 style="color: red;"> Intro to CSS </h1>
+    <h1 style="color: red; text-align: center;"> Intro to CSS </h1>
 
-    <div >
+    <a href="#para" > Go to paragraph! </a>
+
+    <div class="grp-1" >
         Some text in div
     </div>
 
@@ -46,6 +56,10 @@
     </div>
 
     <span> Added sample text to span. </span>
+
+    <p id="para" class="grp-1" >
+        some text in the paragraph!
+    </p>
 
 </body>
 </html>

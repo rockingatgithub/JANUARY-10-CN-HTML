@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="owner" content="Sudhendra Singh" />
+    <title>Document</title>
+    <style>
+        /* #div {
+            height: 200px;
+            width: 60vw;
+            background-color: blanchedalmond;
+        }
+
+        @media screen and (max-width: 912px) {
+            
+            #div {
+                width: 75vw;
+                margin: auto;
+            }
+
+            h1 {
+                display: none;
+            }
+
+        }
+
+        @media screen and (max-width: 576px) {
+            
+            #div {
+                width: 90vw;
+            }
+
+        } */
+
+
+        #div {
+            height: 200px;
+            width: 90vw;
+            background-color: lightcoral;
+            margin: auto;
+        }
+
+        h1 {
+            display: none;
+        }
+
+        
+
+        @media screen and (min-width: 576px) {
+            
+            #div {
+                width: 75vw;
+                margin: 0;
+            }
+
+        }
+
+        @media screen and (min-width: 912px) {
+            #div {
+                width: 60vw;
+            }
+
+            h1 {
+                display: block;
+            }
+        }
+
+       
+
+    </style>
+</head>
+<body>
+
+    <h1> Media Queries (Show on desktop) </h1>
+    <h2> Media Queries (Show on mobile) </h2>
+
+    <div id="div" >
+
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, soluta? Ut dolorum atque alias dolorem repellendus in placeat eum vel rerum iste nulla repellat quaerat, adipisci, vero, magni nostrum. Excepturi.
+
+    </div>
+    
+</body>
+</html>

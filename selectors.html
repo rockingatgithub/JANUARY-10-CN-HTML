@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div, #div-2 {
+            height: 200px;
+            width: 200px;
+            background-color: lightsalmon;
+        }
+
+        div span {
+            color: red
+        }
+
+        div > span {
+            font-size: 20px;
+        }
+
+        div + p {
+            background-color: lightcoral;
+        }
+
+        div ~ p {
+            font-weight: 700;
+        }
+
+        #div-2:hover {
+            background-color: lightblue;
+        }
+
+        a:visited {
+            color: pink;
+        }
+
+        a:active {
+            color: blanchedalmond;
+        }
+
+        input:focus {
+            color: lightgreen;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+
+    <div id="div-1" >
+
+        <p>
+            A para inside a div!
+            <span>
+                A span inside a paragraph!
+            </span>
+
+        </p>
+
+        <span>
+            A span inside a div!
+        </span>
+
+    </div>
+
+    <p>
+        A paragraph neighbouring to div!
+    </p>
+
+    <span>
+        A span outisde a div!
+    </span>
+    
+    <p>
+        A paragraph neighbouring to div 2!
+    </p>
+
+    <a href="https://www.google.com" > Go to Google </a>
+
+    <div>
+
+        <label for="input-1"> Name:- </label>
+        <input id="input-1" type="text" />
+
+    </div>
+    
+
+    <div id="div-2" >
+
+    </div>
+
+    <p>
+        A paragraph neighbouring to div 3!
+    </p>
+
+
+</body>
+</html>
